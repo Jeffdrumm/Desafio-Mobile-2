@@ -23,10 +23,10 @@ class CronometroFuncionando extends React.Component {
       segundos: 0,
       minutos: 0,
       stop: true,
-      
       nameStop: "Start",     
       parcial: "",
       dif: "",
+      parcialf: "",
       a: 0,
       b: 0,
       e: 0,
@@ -298,9 +298,11 @@ render(){
         <Button>Parcial</Button>              
       </ButtonGroup> 
         
-        <LabelCronometro namec={this.state.parcial} />
+      <h3>Parciais</h3>
+        <LabelCronometro namec={this.state.parcialf} />
+        <h3>Diferenças de Parciais</h3>
         <LabelCronometro namec={this.state.dif} />
-        </div>
+          </div>
           <h1><br></br></h1>
        </div>
     );

@@ -78,7 +78,7 @@ function RelogioFuncionando() {
       <h2>{utcToZonedTime(new Date(myDate), "America/Mexico_City").toString().substring(16,25)}</h2>      
       <br></br> 
       <ButtonGroup size="large" color="" aria-label="large outlined primary button group">
-      <Button>Guadalajara</Button>          
+      <Button>Tokyo</Button>          
       </ButtonGroup>
       <br></br>
       <h2>{utcToZonedTime(new Date(myDate), "Asia/Tokyo").toString().substring(16,25)}</h2>       

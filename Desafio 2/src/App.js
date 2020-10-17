@@ -37,6 +37,7 @@ const App = () => {
     <IconButton color="" onClick={() => setType(3)} aria-label="Relógio">
         <AccessTimeIcon/>
   </IconButton>
+  <br></br>  
   <ButtonGroup size="large" color="" aria-label="large outlined primary button group">
         <Button>cronômetro</Button>
         <Button>temporizador</Button>        
